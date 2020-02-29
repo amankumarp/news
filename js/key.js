@@ -1,1 +1,1 @@
-const key = "0a63295d6a2e45f3bf829b8855e79546";
+const key = "";  //Put here your news-api key
