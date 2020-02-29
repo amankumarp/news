@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News Website </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Navbar code -->
+
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+                <h1 class="navbar-brand"><a id="home" class="nav-link text-light">News.com</a></h1>
+                <div class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span
+                        class="navbar-toggler-icon"></span></div>
+                <div class="input-group col-md-4 offset-md-1 p-3">
+                    <input type="search" class="form-control" placeholder="Search for News,Articles and more" />
+                    <div class="input-group-append">
+                        <div class="input-group-text" id="search">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav collapse navbar-collapse" id="nav">
+                    <li class="nav-item"><a id="business" class="nav-link">Business</a></li>
+                    <li class="nav-item"><a id="entertainment" class="nav-link">Entertainment</a></li>
+                    <li class="nav-item"><a id="health" class="nav-link">Health</a></li>
+                    <li class="nav-item"><a id="sports" class="nav-link">Sports</a></li>
+                    <li class="nav-item"><a id="science" class="nav-link">Science</a></li>
+                    <li class="nav-item"><a id="technology" class="nav-link">Technology</a></li>
+
+                </ul>
+            </nav>
+            <!-- navbarcode End -->
+            <div class="loading">
+                <div class="spinner-border text-primary"></div>
+            </div>
+            <div class="error">
+                <div class="error-body">
+                    <i class="fa fa-signal fa-3x text-primary"></i>
+                    <h3> No Internet Connection </h3>
+                    <div class="text-center"><div class="btn btn-outline-info">Refresh</div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 news-container">
+                   
+                </div>
+            </div>
+        </div>
+
+    </body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/key.js"></script>
+<script src="js/script.js"></script>
+
+</html>
